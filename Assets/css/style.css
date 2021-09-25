@@ -6,7 +6,7 @@
 
 .container {
     margin: 0 auto;
-    width: 900px;
+    width: 1000px;
     background-color: grey;
 }
 
@@ -17,7 +17,7 @@
     justify-content: space-between;
     height: 75px;
 
-    background-color: grey;
+    background-color: teal;
 }
 
 .nav-brand {
@@ -25,13 +25,13 @@
     align-items: center;
 }
 .nav-brand h1 {
-    background-color: red;
+    background-color: maroon;
     border-top: 5px;
     border-right: 5px;
     border-bottom: 5px;
     border-left: 50px;
     border-style: solid;
-    border-color:red;
+    border-color:maroon;
 }
 
 .nav-bar {
@@ -55,14 +55,15 @@
 }
 
 .nav-bar ul li a {
-    color: red;
+    color: maroon;
     text-decoration: none;
+    font-size: 20px;
 
 }
 
 /* header section */
 .header-section {
-    width: 900px;
+    width: 1000px;
     height: 300px;
     position: relative;
 }
@@ -73,16 +74,17 @@
     background-image: url("../images/web2000__salt-lake-city_skyline_fall_-jay_dash_photography_img_0528.jpg") ;
     background-position: center;
     background-size: cover;
+    border: 2px solid maroon;
 }
 
 .header-section h2 {
     position: absolute;
     right: 10%;
     bottom: 10%;
-    background-color: red;
+    background-color: maroon;
     background-size: 5px;
 
-    border: 5px solid red;
+    border: 5px solid maroon;
 }
 
 
@@ -100,6 +102,9 @@
     display: flex;
     padding-right: 10px;
     font-size: 36px;
+
+    background-color: teal;
+    color: maroon;
 
 }
 
@@ -130,7 +135,7 @@
     display: flex;
     flex-wrap: wrap;
    
-    height: 500px;
+    height: 350px;
 }
 
 .work-heading {
@@ -139,6 +144,9 @@
     display: flex;
     padding-right: 10px;
     font-size: 36px;
+
+    background-color: teal;
+    color:maroon;
 
 }
 .work-heading h3 {
@@ -178,6 +186,7 @@
     background-size: cover;
 
     display: flex;
+    border: 2px solid maroon;
 }
 
 .work-img-container2 {
@@ -194,6 +203,7 @@
 
 .work-div2 a {
     display: flex;
+    flex-wrap: wrap;
     margin: 10px auto;
     width: 80%;
     height: 50%;
@@ -202,26 +212,72 @@
     background-size: cover;
 
     display: flex;
-    
+    border: 2px solid maroon;
 }
 
 /* contact me */
 .contact-container {
-
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
 }
 
 .contact-heading {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    padding-right: 10px;
+    font-size: 36px;
 
+    background-color: teal;
+    color: maroon;
 }
 
 .contact-heading h3 {
-
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    height: 100%;
+    width: 100%;
 }
 
 .contact-holder {
-
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content: center;
 }
 
-.contact-holder a {
-    
+.contact-holder ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.contact-holder ul li {
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+    align-items: center;
+
+    color: maroon;
+
+    text-decoration: underline;
+    text-decoration: teal;
+}
+
+.contact-holder ul li a {
+    font-size: 14px;
+
+    color: maroon;
+    text-decoration: underline;
+    text-decoration: teal;
+}
+
+.contact-holder ul li a:last-child {
+    font-size: 14px;
+
+    color: maroon;
+    text-decoration: underline;
+    text-decoration: teal;
 }
