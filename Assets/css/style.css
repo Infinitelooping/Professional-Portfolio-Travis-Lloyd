@@ -314,6 +314,8 @@
         border-left: 100px;
         border-style: solid;
         border-color:maroon;
+
+        font-size: 24px;
     }  
 
     /* contact me */
@@ -330,16 +332,11 @@
 
     .contact-holder ul li a {
         width: 50%;
-        font-size: 18px;
+        font-size: 20px;
         text-align: center;
     }
 
 
 }
 
-@media screen and (max-width: 575px) {
-    .nav-brand {
-        border: 5px solid 100%;
-    }
-}
 
