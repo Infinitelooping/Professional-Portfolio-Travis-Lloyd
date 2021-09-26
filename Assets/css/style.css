@@ -313,7 +313,7 @@
         justify-content:center;
 
     }
-    .nav-brand h1 {
+    .nav-brand a {
         background-color: maroon;
         border-top: 5px;
         border-right: 100px;
@@ -321,6 +321,7 @@
         border-left: 100px;
         border-style: solid;
         border-color:maroon;
+
 
         font-size: 24px;
     }
