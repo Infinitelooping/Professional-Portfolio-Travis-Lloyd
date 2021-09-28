@@ -7,6 +7,9 @@ Links are still active and "coming soon" background-images have been put in plac
 ## Media-Queries
 We have implemented screen viewpoints for the 765px range.
 
+## Deployed site
+https://infinitelooping.github.io/Professional-Portfolio-Travis-Lloyd/
+
 ## Pages vs default browser
 Note: I have been working off the view from my default browser, and the scaling of everything was founf to be different on the deployed site from pages. Will need to rearrange.
 
