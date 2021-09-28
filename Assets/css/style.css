@@ -11,7 +11,7 @@
 
 .container {
     margin: 0 auto;
-    width: 1000px;
+    width: 85%;
     background-color: var(--back-color);
 }
 
@@ -76,7 +76,7 @@
 
 /* header section */
 .header-section {
-    width: 1000px;
+    width: 85%;
     height: 300px;
     position: relative;
 }
